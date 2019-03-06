@@ -51,7 +51,7 @@ public class Histogram extends Application{
 			
 			String url = textField.getText();
 			
-			// Get the statistics
+			// Get the character frequency statistics
 			try{
 				File file = new File(url);
 				if(file.isFile()){
